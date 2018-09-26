@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="2dp"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/ll_commodity_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_commodity_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="商品"
+            android:textColor="#991b10"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/iv_commodity_tab"
+            android:layout_width="35dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_commodity_tab"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="8dp"
+            android:background="#991b10"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_details_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_details_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="详情"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+
+        <TextView
+            android:id="@+id/iv_details_tab"
+            android:layout_width="35dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_details_tab"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="8dp"
+            android:background="#991b10"
+            android:gravity="center"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ll_comment_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_comment_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="详情"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/iv_comment_tab"
+            android:layout_width="35dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_comment_tab"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="8dp"
+            android:background="#991b10"
+            android:gravity="center"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_recommend_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_recommend_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="推荐"
+            android:textColor="#333333"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/iv_recommend_tab"
+            android:layout_width="35dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_recommend_tab"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="8dp"
+            android:background="#991b10"
+            android:gravity="center"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+
+</LinearLayout>
